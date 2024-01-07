@@ -1,12 +1,14 @@
 **/node_modules
 **/dist
 **/.next
+
+**/.env*.local
 node_modules
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
-
+.idea
 # testing
 /coverage
 
