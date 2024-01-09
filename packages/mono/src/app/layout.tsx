@@ -27,8 +27,11 @@ export function generateViewport(): Viewport {
   }
 }
 
-export function generateMeta() {
+export async function generateMetadata() {
   const apiClient = getQueryClient()
+  return {
+
+  }
 }
 
 export default function RootLayout({
